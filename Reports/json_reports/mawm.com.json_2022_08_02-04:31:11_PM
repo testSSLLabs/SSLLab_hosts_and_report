@@ -1,0 +1,292 @@
+{
+  "host": "mawm.com",
+  "port": 443,
+  "protocol": "http",
+  "isPublic": false,
+  "status": "READY",
+  "startTime": 1659457370264,
+  "testTime": 1659457863621,
+  "engineVersion": "2.1.10",
+  "criteriaVersion": "2009q",
+  "cacheExpiryTime": 1659458463621,
+  "endpoints": [
+    {
+      "ipAddress": "208.91.197.39",
+      "statusMessage": "Unable to connect to the server",
+      "statusDetails": "TESTING_HANDSHAKE_SIMULATION",
+      "statusDetailsMessage": "Simulating handshakes",
+      "progress": 96,
+      "duration": 493171,
+      "eta": 18,
+      "delegation": 1,
+      "details": {
+        "hostStartTime": 1659457370264,
+        "certChains": [
+          {
+            "id": "a4faeee4de44d4f737392f46e33db77ac9247729d7319cb052f5d6ac9fb823ea",
+            "certIds": [
+              "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+            ],
+            "trustPaths": [
+              {
+                "certIds": [
+                  "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+                ],
+                "trust": [
+                  {
+                    "rootStore": "Mozilla",
+                    "isTrusted": false,
+                    "trustErrorMessage": "path does not chain to a trusted anchor"
+                  }
+                ]
+              },
+              {
+                "certIds": [
+                  "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+                ],
+                "trust": [
+                  {
+                    "rootStore": "Apple",
+                    "isTrusted": false,
+                    "trustErrorMessage": "path does not chain to a trusted anchor"
+                  }
+                ]
+              },
+              {
+                "certIds": [
+                  "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+                ],
+                "trust": [
+                  {
+                    "rootStore": "Android",
+                    "isTrusted": false,
+                    "trustErrorMessage": "path does not chain to a trusted anchor"
+                  }
+                ]
+              },
+              {
+                "certIds": [
+                  "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+                ],
+                "trust": [
+                  {
+                    "rootStore": "Java",
+                    "isTrusted": false,
+                    "trustErrorMessage": "path does not chain to a trusted anchor"
+                  }
+                ]
+              },
+              {
+                "certIds": [
+                  "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973"
+                ],
+                "trust": [
+                  {
+                    "rootStore": "Windows",
+                    "isTrusted": false,
+                    "trustErrorMessage": "path does not chain to a trusted anchor"
+                  }
+                ]
+              }
+            ],
+            "issues": 0,
+            "noSni": false
+          }
+        ],
+        "protocols": [
+          {
+            "id": 769,
+            "name": "TLS",
+            "version": "1.0"
+          },
+          {
+            "id": 770,
+            "name": "TLS",
+            "version": "1.1"
+          },
+          {
+            "id": 771,
+            "name": "TLS",
+            "version": "1.2"
+          }
+        ],
+        "namedGroups": {
+          "list": [
+            {
+              "id": 23,
+              "name": "secp256r1",
+              "bits": 256,
+              "namedGroupType": "EC"
+            },
+            {
+              "id": 24,
+              "name": "secp384r1",
+              "bits": 384,
+              "namedGroupType": "EC"
+            },
+            {
+              "id": 25,
+              "name": "secp521r1",
+              "bits": 521,
+              "namedGroupType": "EC"
+            },
+            {
+              "id": 29,
+              "name": "x25519",
+              "bits": 256,
+              "namedGroupType": "EC"
+            },
+            {
+              "id": 30,
+              "name": "x448",
+              "bits": 224,
+              "namedGroupType": "EC"
+            }
+          ],
+          "preference": false
+        },
+        "serverSignature": "openresty",
+        "prefixDelegation": false,
+        "nonPrefixDelegation": true,
+        "vulnBeast": true,
+        "renegSupport": 2,
+        "sessionResumption": -1,
+        "compressionMethods": 0,
+        "supportsNpn": false,
+        "supportsAlpn": false,
+        "sessionTickets": 1,
+        "ocspStapling": false,
+        "sniRequired": false,
+        "httpStatusCode": 200,
+        "rc4WithModern": false,
+        "protocolIntolerance": 0,
+        "miscIntolerance": 0,
+        "sims": {
+          "results": []
+        },
+        "heartbleed": false,
+        "heartbeat": false,
+        "openSslCcs": 1,
+        "openSSLLuckyMinus20": 1,
+        "ticketbleed": 1,
+        "bleichenbacher": 1,
+        "poodle": false,
+        "poodleTls": 1,
+        "fallbackScsv": true,
+        "freak": false,
+        "hasSct": 0,
+        "ecdhParameterReuse": false,
+        "logjam": false,
+        "hstsPolicy": {
+          "LONG_MAX_AGE": 15552000,
+          "status": "unknown",
+          "directives": {}
+        },
+        "hpkpPolicy": {
+          "status": "unknown",
+          "pins": [],
+          "matchedPins": [],
+          "directives": []
+        },
+        "hpkpRoPolicy": {
+          "status": "unknown",
+          "pins": [],
+          "matchedPins": [],
+          "directives": []
+        },
+        "staticPkpPolicy": {
+          "status": "unknown",
+          "pins": [],
+          "matchedPins": [],
+          "forbiddenPins": [],
+          "matchedForbiddenPins": []
+        },
+        "httpTransactions": [
+          {
+            "requestUrl": "https://mawm.com/",
+            "statusCode": 200,
+            "requestLine": "GET / HTTP/1.1",
+            "requestHeaders": [
+              "Host: mawm.com",
+              "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0",
+              "Accept: */*",
+              "Connection: Close"
+            ],
+            "responseLine": "HTTP/1.1 200 OK",
+            "responseHeadersRaw": [
+              "Server: openresty",
+              "Date: Tue, 02 Aug 2022 16:23:35 GMT",
+              "Content-Type: text/html; charset=UTF-8",
+              "Transfer-Encoding: chunked",
+              "Connection: close",
+              "X-Adblock-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_Mhe/u879sShWm8MpMDhwHYFv0RlzbVtvsiZADwaPhr1OUsSmWwKjmdEON8e/5SXNtOTDTZg8PG1XB3vyaUHnLQ=="
+            ],
+            "responseHeaders": [
+              {
+                "name": "Server",
+                "value": "openresty"
+              },
+              {
+                "name": "Date",
+                "value": "Tue, 02 Aug 2022 16:23:35 GMT"
+              },
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=UTF-8"
+              },
+              {
+                "name": "Transfer-Encoding",
+                "value": "chunked"
+              },
+              {
+                "name": "Connection",
+                "value": "close"
+              },
+              {
+                "name": "X-Adblock-Key",
+                "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_Mhe/u879sShWm8MpMDhwHYFv0RlzbVtvsiZADwaPhr1OUsSmWwKjmdEON8e/5SXNtOTDTZg8PG1XB3vyaUHnLQ=="
+              }
+            ],
+            "fragileServer": false
+          }
+        ],
+        "zeroRTTEnabled": -1,
+        "zombiePoodle": 0,
+        "goldenDoodle": 0,
+        "zeroLengthPaddingOracle": 0,
+        "sleepingPoodle": 0
+      }
+    }
+  ],
+  "certs": [
+    {
+      "id": "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973",
+      "subject": "CN=testexp, OU=testexample, O=testexample, L=test, ST=California, C=US",
+      "serialNumber": "42f781ab6e8c5f9e1588cd7860eb4f820573ecdf",
+      "commonNames": [
+        "testexp"
+      ],
+      "notBefore": 1591076509000,
+      "notAfter": 1906436509000,
+      "issuerSubject": "CN=testexp, OU=testexample, O=testexample, L=test, ST=California, C=US",
+      "sigAlg": "SHA256withRSA",
+      "revocationInfo": 0,
+      "revocationStatus": 0,
+      "crlRevocationStatus": 0,
+      "ocspRevocationStatus": 0,
+      "dnsCaa": false,
+      "mustStaple": false,
+      "sgc": 0,
+      "issues": 40,
+      "sct": false,
+      "sha1Hash": "1a42b07f5f73d2535e4025cc976b8e88ba457168",
+      "sha256Hash": "db5792efac6d5770c2e0fab4920333beda922e4bb98e589e3e8f07683c5e8973",
+      "pinSha256": "s4Xdy+atG648R1nUlwGUEeEkt1i8/9myvYQnp7kBlkc=",
+      "keyAlg": "RSA",
+      "keySize": 4096,
+      "keyStrength": 4096,
+      "keyKnownDebianInsecure": false,
+      "raw": "-----BEGIN CERTIFICATE-----\n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\r\n-----END CERTIFICATE-----\n"
+    }
+  ]
+}
