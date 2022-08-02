@@ -1,0 +1,4 @@
+Host,Server Name,IP Address,HasWarnings,Grade,Cert Expiry,Chain Status,Forward Secrecy,Heartbeat ext,Support RC4,RC4 Only,RC4 with modern protocols,Vuln Drown,Vuln openSsl Ccs,Vuln openSSL LuckyMinus20,SSL 2.0 INSECURE,SSL 3.0 INSECURE,TLS 1.0,TLS 1.1,TLS 1.2,TLS 1.3
+mawm.com,None,208.91.197.39,True,T,2030-05-31,none,at least one browser from our simulations negotiated a Forward Secrecy suite,False,False,False,False,False,False,False,No,No,Yes,Yes,Yes,No
+google.com,nuq04s35-in-f14.1e100.net,142.250.188.14,False,B,2022-10-03,none,FS is achieved with modern clients,False,False,False,False,False,False,False,No,No,Yes,Yes,Yes,Yes
+google.com,sfo03s18-in-x0e.1e100.net,2607:f8b0:4005:80b:0:0:0:200e,False,B,2022-10-03,none,FS is achieved with modern clients,False,False,False,False,False,False,False,No,No,Yes,Yes,Yes,Yes
